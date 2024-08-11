@@ -325,8 +325,6 @@ Inheritance in Java is a powerful feature that provides several benefits, includ
 
 ### Example
 
-Let's consider a simple example of a machine hierarchy relevant to John Deere's business.
-
 #### Step-by-Step Example: Inheritance in Java
 
 1. **Define the Superclass**:
