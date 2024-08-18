@@ -1,4 +1,4 @@
-package array;
+package com.array;
 
 public class ArrayUtil {
     public void printArray(int[] arr) {

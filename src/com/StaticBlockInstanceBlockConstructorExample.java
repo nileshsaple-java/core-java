@@ -1,4 +1,4 @@
-package variables;
+package com;
 
 public class StaticBlockInstanceBlockConstructorExample {
 

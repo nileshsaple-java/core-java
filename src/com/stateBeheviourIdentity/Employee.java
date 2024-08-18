@@ -1,4 +1,4 @@
-package stateBeheviourIdentity;
+package com.stateBeheviourIdentity;
 
 // Define the Employee class
 class Employee {

@@ -1,4 +1,4 @@
-package array;
+package com.array;
 
 public class FindMinimumNumber {
     public int findMinimum(int[] arr) {

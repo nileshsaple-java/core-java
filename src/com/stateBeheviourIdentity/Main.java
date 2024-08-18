@@ -1,4 +1,4 @@
-package stateBeheviourIdentity;
+package com.stateBeheviourIdentity;
 
 // Main class to demonstrate creating and using an Employee object
 public class Main {
