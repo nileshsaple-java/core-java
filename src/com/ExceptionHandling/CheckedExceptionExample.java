@@ -1,4 +1,4 @@
-package com.ExceptionHandling.exapmes;
+package com.ExceptionHandling;
 
 import java.io.*;
 
