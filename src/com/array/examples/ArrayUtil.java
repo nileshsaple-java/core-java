@@ -1,4 +1,4 @@
-package com.array;
+package com.array.examples;
 
 public class ArrayUtil {
     public void printArray(int[] arr) {
