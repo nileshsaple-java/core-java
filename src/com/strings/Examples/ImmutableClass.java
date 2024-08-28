@@ -17,17 +17,16 @@ public final class ImmutableClass {
         return age;
     }
 
-
     public static void main(String[] args) {
         ImmutableClass student = new ImmutableClass("Roshan", 24);
         student.getName();
         student.getAge();
         System.out.println("Name is " + student.getName() + " and he is " + student.getAge() + " years old.");
 
-         ImmutableClass student1 = new ImmutableClass("Sumit", 29);
-         student1.getName();
-         student1.getAge();
-         System.out.println("Name is " + student1.getName() + " and he is " + student1.getAge() + " years old.");
+        ImmutableClass student1 = new ImmutableClass("Sumit", 29);
+        student1.getName();
+        student1.getAge();
+        System.out.println("Name is " + student1.getName() + " and he is " + student1.getAge() + " years old.");
     }
 }
 

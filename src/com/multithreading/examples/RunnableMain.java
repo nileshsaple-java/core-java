@@ -36,5 +36,30 @@ public class RunnableMain {
         t2.setName("T2");
         t1.start();
         t2.start();
+
+
+        // Anonymous Inner class
+        // Creating an anonymous inner class that implements the Runnable interface
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 5; i++) {
+                    System.out.println("Runnable 3 - Count: " + i);
+                }
+            }
+        };
+
+        Thread t3 = new Thread(r);
+        t3.start();
+
+        //=========Using Functional Programming==========
+        Runnable runnable = () -> {
+            System.out.println("Running in a thread");
+        };
+        new Thread(runnable).start();
+
+        //Thread t4 = new Thread(runnable);
+        //t4.start();
+
     }
 }
