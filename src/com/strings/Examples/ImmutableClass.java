@@ -21,12 +21,20 @@ public final class ImmutableClass {
         ImmutableClass student = new ImmutableClass("Roshan", 24);
         student.getName();
         student.getAge();
-        System.out.println("Name is " + student.getName() + " and he is " + student.getAge() + " years old.");
+        System.out.println("My name is " + student.getName() + " and he is " + student.getAge() + " years old.");
 
         ImmutableClass student1 = new ImmutableClass("Sumit", 29);
         student1.getName();
         student1.getAge();
-        System.out.println("Name is " + student1.getName() + " and he is " + student1.getAge() + " years old.");
-    }
+        System.out.println("My name is " + student1.getName() + " and he is " + student1.getAge() + " years old.");
+
+    ImmutableClass student2 = new ImmutableClass("Amit", 19);
+        student2.getName();
+        student2.getAge();
+        System.out.println("My name is " + student1.getName() + " and he is " + student1.getAge() + " years old.");
 }
+
+}
+
+
 
